@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F3CF5611A87D61A007E0ABC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F3CF5601A87D61A007E0ABC /* Images.xcassets */; };
 		770D7D5B1804BE240004AC85 /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 770D7D571804BE240004AC85 /* Default-Landscape@2x~ipad.png */; };
 		770D7D5C1804BE240004AC85 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 770D7D581804BE240004AC85 /* Default-Landscape~ipad.png */; };
 		770D7D5D1804BE240004AC85 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 770D7D591804BE240004AC85 /* Default-Portrait@2x~ipad.png */; };
@@ -91,6 +92,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F3CF5601A87D61A007E0ABC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		770D7D571804BE240004AC85 /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
 		770D7D581804BE240004AC85 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
 		770D7D591804BE240004AC85 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
@@ -243,6 +245,7 @@
 				7758442117CBBA80003D0C45 /* PrayerViewController.xib */,
 				7758442417CBC97B003D0C45 /* Prayer.h */,
 				7758442517CBC97B003D0C45 /* Prayer.m */,
+				0F3CF5601A87D61A007E0ABC /* Images.xcassets */,
 				7758437F17CAB585003D0C45 /* Supporting Files */,
 			);
 			path = "Sh'himo";
@@ -408,6 +411,7 @@
 				7758439E17CAB585003D0C45 /* DetailViewController.xib in Resources */,
 				775843AA17CAB829003D0C45 /* clock.png in Resources */,
 				775843AB17CAB829003D0C45 /* clock@2x.png in Resources */,
+				0F3CF5611A87D61A007E0ABC /* Images.xcassets in Resources */,
 				775843E817CBB548003D0C45 /* Preface.html in Resources */,
 				775843F017CBB548003D0C45 /* Monday-Ramsho.html in Resources */,
 				775843F117CBB548003D0C45 /* Monday-Soutoro.html in Resources */,
@@ -580,10 +584,12 @@
 		775843A517CAB585003D0C45 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Sh'himo/Sh'himo-Prefix.pch";
 				INFOPLIST_FILE = "Sh'himo/Sh'himo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -592,10 +598,12 @@
 		775843A617CAB585003D0C45 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Sh'himo/Sh'himo-Prefix.pch";
 				INFOPLIST_FILE = "Sh'himo/Sh'himo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
