@@ -1,0 +1,16 @@
+@font-face
+{
+	font-family: myFont;
+	src: url('AppSILR.ttf');
+}
+
+body {
+	font-family: myFont;
+	color: #000;
+}
+
+table, th, td
+{
+    border: 1px solid #ccc;
+    border-spacing: 0px;
+}
